@@ -3,7 +3,7 @@
 setwd("/Users/Non-corrupt user/Desktop/Suzy/DataScience/R Programming/ProgrammingAssignment2/")
 
 
-##makeCacheMatrix does the following:
+##creates a list that contains functions to:
 ##sets the values 
 ##gets the values of the matrix
 ##sets the inverse of the matrix
