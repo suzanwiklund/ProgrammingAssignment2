@@ -1,9 +1,13 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-
-## Write a short comment describing this function
 setwd("/Users/Non-corrupt user/Desktop/Suzy/DataScience/R Programming/ProgrammingAssignment2/")
 
+
+##makeCacheMatrix does the following:
+##sets the values 
+##gets the values of the matrix
+##sets the inverse of the matrix
+##gets the inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   
@@ -24,8 +28,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
+##gets the inverese of the matrix
+##if inverse already exists then uses cached inverse
+##ohterwise computes inverse - gets data, solves & sets it
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   i <- x$getinverse()
